@@ -9,10 +9,12 @@
 @font-face {
   font-family: "Young Serif";
   src: url("/src/assets/fonts/young-serif/YoungSerif-Regular.ttf") format("truetype");
+  src: url("../../assets/fonts/young-serif/YoungSerif-Regular.ttf") format("truetype");
 }
 @font-face {
   font-family: "Outfit";
   src: url("/src/assets/fonts/outfit/Outfit-VariableFont_wght.ttf") format("truetype");
+  src: url("../../fonts/outfit/Outfit-VariableFont_wght.ttf") format("truetype");
 }
 html {
   font-family: "Outfit", sans-serif;
