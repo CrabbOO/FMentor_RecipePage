@@ -1,0 +1,27 @@
+@use "../base/colors" as *;
+
+@media (min-width: 690px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    main {
+      margin: 5rem auto;
+      border-radius: 20px;
+
+      .image {
+        padding: 1.7rem 1.7rem 0 1.7rem;
+
+        img {
+          border-radius: 10px;
+        }
+      }
+    }
+
+    .attribution {
+      background-color: $eggshell;
+    }
+  }
+}

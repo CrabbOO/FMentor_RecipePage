@@ -1,0 +1,155 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Young Serif";
+  src: url("/src/assets/fonts/young-serif/YoungSerif-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Outfit";
+  src: url("/src/assets/fonts/outfit/Outfit-VariableFont_wght.ttf") format("truetype");
+}
+html {
+  font-family: "Outfit", sans-serif;
+}
+
+h1,
+h2 {
+  font-family: "Young Serif", sans-serif;
+}
+
+p {
+  font-size: 16px;
+}
+
+h2,
+li::marker {
+  color: hsl(14, 45%, 36%);
+}
+
+hr {
+  border: 1px solid hsl(30, 18%, 87%);
+}
+
+body {
+  color: hsl(30, 10%, 34%);
+  background-color: hsl(30, 54%, 90%);
+}
+
+ol,
+ul {
+  padding: 1.3rem;
+}
+ol li,
+ul li {
+  margin-bottom: 0.5rem;
+  padding-left: 0.8rem;
+}
+
+@media (min-width: 690px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  body main {
+    margin: 5rem auto;
+    border-radius: 20px;
+  }
+  body main .image {
+    padding: 1.7rem 1.7rem 0 1.7rem;
+  }
+  body main .image img {
+    border-radius: 10px;
+  }
+  body .attribution {
+    background-color: hsl(30, 54%, 90%);
+  }
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  background-color: white;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  text-decoration: none;
+}
+
+main {
+  background-color: white;
+  max-width: 690px;
+}
+main .image {
+  padding: 0.3rem 0.3rem 0 0.3rem;
+}
+main .image img {
+  width: 100%;
+}
+main hr {
+  margin-bottom: 1rem;
+}
+
+.instructions li::marker {
+  font-weight: 700;
+}
+
+.nutrition h2 {
+  margin-bottom: 1rem;
+}
+.nutrition b {
+  color: hsl(14, 45%, 36%);
+}
+.nutrition p {
+  margin-bottom: 1rem;
+}
+.nutrition table {
+  border-collapse: collapse;
+  margin: 0 auto;
+  width: 100%;
+}
+.nutrition table tr:not(:last-child) {
+  border-bottom: 2px solid hsl(30, 18%, 87%);
+}
+.nutrition table td {
+  padding: 1rem;
+}
+
+.prep-time {
+  background-color: hsla(332, 51%, 32%, 0.1);
+  padding: 1.4rem;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+.prep-time h3 {
+  color: hsl(332, 51%, 32%);
+}
+.prep-time b {
+  color: hsl(30, 10%, 34%);
+}
+.prep-time li:last-child {
+  margin-bottom: -0.6rem;
+}
+
+.info h1 {
+  line-height: 2rem;
+  margin-bottom: 1rem;
+  color: hsl(24, 5%, 18%);
+}
+.info p {
+  margin-bottom: 1rem;
+  color: hsl(30, 10%, 34%);
+}
+
+.recipe {
+  padding: 1.5rem;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,29 @@
+@use "../base/colors" as *;
+
+.nutrition {
+  h2 {
+    margin-bottom: 1rem;
+  }
+
+  b {
+    color: $nutmeg;
+  }
+
+  p {
+    margin-bottom: 1rem;
+  }
+
+  table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    width: 100%;
+
+    tr:not(:last-child) {
+      border-bottom: 2px solid $lightGrey;
+    }
+
+    td {
+      padding: 1rem;
+    }
+  }
+}

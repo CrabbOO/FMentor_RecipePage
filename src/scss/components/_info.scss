@@ -1,0 +1,14 @@
+@use "../base/colors" as *;
+
+.info {
+  h1 {
+    line-height: 2rem;
+    margin-bottom: 1rem;
+    color: $darkCharcoal;
+  }
+
+  p {
+    margin-bottom: 1rem;
+    color: $wengeBrown;
+  }
+}
